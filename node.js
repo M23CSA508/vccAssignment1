@@ -7,5 +7,5 @@ app.get('/api', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Node A service listening on port ${port}`);
+  console.log(`VM1 service listening on port ${port}`);
 });
